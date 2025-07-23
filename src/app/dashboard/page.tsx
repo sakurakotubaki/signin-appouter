@@ -10,7 +10,7 @@ export default async function DashboardPage() {
     if (!user) return redirect("/");
 
     return (
-        <div>
+        <div className='text-center mt-10'>
             <h1>Welcome to your dashboard, {user.email}!</h1>
             <form>
 
